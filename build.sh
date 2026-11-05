@@ -27,7 +27,12 @@ cat > "$APP/Contents/Info.plist" <<'PLIST'
 <key>NSHighResolutionCapable</key><true/>
 </dict></plist>
 PLIST
-codesign --force --sign - "$APP"
+if [[ -n "${DOTAPING_APP_IDENTITY:-}" ]]; then
+    /usr/libexec/PlistBuddy -c "Set :CFBundleIdentifier ${DOTAPING_BUNDLE_ID:-com.yuchengma.dotaping}" "$APP/Contents/Info.plist"
+    codesign --force --options runtime --timestamp --sign "$DOTAPING_APP_IDENTITY" "$APP"
+else
+    codesign --force --sign - "$APP"
+fi
 plutil -lint "$APP/Contents/Info.plist"
 codesign --verify --strict "$APP"
 printf '\nBuilt: %s\n' "$APP"

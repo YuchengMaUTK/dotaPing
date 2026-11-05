@@ -69,7 +69,7 @@ dist/DotaPing.app/Contents/MacOS/DotaPing --self-test
 open dist/DotaPing.app
 ```
 
-The build creates an ad-hoc signed app in `dist/`. It is not Developer ID signed or notarized.
+The build creates an ad-hoc signed app in `dist/`. For .pkg packaging, Developer ID signing and Apple notarization, see [macOS installer instructions](docs/MACOS_INSTALLER.md).
 Updating or moving the app may require re-adding its Accessibility entry.
 Do not disable Gatekeeper or remove quarantine as an installation step.
 
