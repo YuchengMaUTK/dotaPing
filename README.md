@@ -6,15 +6,18 @@ DotaPing brings a radial signal wheel, animated pings and sound to your Mac desk
 It runs in the menu bar and places signals at your cursor's initial position.
 Built with Swift and AppKit, with no third-party runtime dependencies.
 
-## The wheel
+## The wheel and ping
 
-![DotaPing attack signal selected in the wheel over a Google page on macOS](docs/images/ping-wheel.png)
+<p>
+  <img src="docs/images/ping-wheel.png" alt="DotaPing wheel with Attack highlighted, on a transparent background" width="360">
+  <img src="docs/images/exclamation-ping.png" alt="Default exclamation ping with a blue light beam and ground ring, on a transparent background" width="200">
+</p>
 
 The familiar eight-direction wheel uses the original Dota 2 icon and wheel textures.
 Hold **Option**, drag toward a signal, and release to ping that spot on your Mac—over a browser,
 a document, or the desktop. **⌘⌥P** also opens the wheel.
 
-*Actual DotaPing wheel over a Google page on macOS, with ATTACK selected. The wheel uses game-exported artwork; desktop particle effects approximate the game's rendering.*
+*Transparent exports of the Attack-highlighted wheel and default exclamation ping. The wheel uses game-exported artwork; desktop particle effects approximate the game's rendering.*
 
 ## Platform and status
 
