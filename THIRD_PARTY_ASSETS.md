@@ -1,6 +1,6 @@
 # Third-party asset notice
 
-The public source distribution excludes the game images, sounds, derived sound catalog and copied game reference files described below. Paths in the historical provenance notes refer to optional local imports. MIT applies only to original project work; it does not license Valve content.
+The public source distribution excludes standalone game resource images, sounds, the derived sound catalog and copied game reference files described below. Documentation images show the app UI with game artwork; that third-party artwork is not covered by the MIT license. Paths in the historical provenance notes refer to optional local imports. MIT applies only to original project work; it does not license Valve content.
 
 ## Dota 2 Ping textures
 
