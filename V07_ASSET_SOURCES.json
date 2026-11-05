@@ -1,0 +1,247 @@
+{
+  "note": "v0.7 additions only; the 11 earlier Particles/* sprites are listed in V06_ASSET_SOURCES.json. Textures are unmodified bytes from the dataset; JSON files were read for reference and are not bundled.",
+  "textures": [
+    {
+      "file": "Particles/ping_assist.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_assist.png",
+      "bytes": 9461,
+      "sha256": "fb0d8627123095b63c059012475e891a5c43c04667a954c5d43ff57b593a5e22"
+    },
+    {
+      "file": "Particles/ping_defend.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_defend.png",
+      "bytes": 11847,
+      "sha256": "824dff28740abee9c4ec77eea34ced2b564fa282f51fe8bfa58d1a90e0ff7977"
+    },
+    {
+      "file": "Particles/ping_heart.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_heart.png",
+      "bytes": 9314,
+      "sha256": "51234eb3d9de5a7b4062037108ea94dadf0f7e2adff0fdca516452221cbc0ae1"
+    },
+    {
+      "file": "Particles/ping_icon_attack.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_icon_attack.png",
+      "bytes": 12617,
+      "sha256": "a9ba69cb8f04e629036325c5a3a8f57d976754086168f8f2a22aac10ce756029"
+    },
+    {
+      "file": "Particles/ping_icon_retreat.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_icon_retreat.png",
+      "bytes": 9407,
+      "sha256": "40a41d9dec3ee3d4648e4cb6dc241dd20a8d5620bb69df4168d94be3f42d33c3"
+    },
+    {
+      "file": "Particles/ping_icon_ward.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_icon_ward.png",
+      "bytes": 9519,
+      "sha256": "8e0d6722db45e3e068cb1b6a1a7af105ddb0f003f6f14241796f7a13469b8a26"
+    },
+    {
+      "file": "Particles/ping_icon_ward_highlight.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_icon_ward_highlight.png",
+      "bytes": 8777,
+      "sha256": "a6b43cd34ca31e773f7cf5d063248aafd7755dff6bce59f9321ee378d36a6d68"
+    },
+    {
+      "file": "Particles/arrow_down.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/arrow_down.png",
+      "bytes": 4319,
+      "sha256": "5e36ea4046011041c2859d4f2b2a661ff1e533c7e6cac63076819b71869829ee"
+    },
+    {
+      "file": "Particles/arrow_down_outline_02.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/arrow_down_outline_02.png",
+      "bytes": 2367,
+      "sha256": "6fc1a42f9b5fee2ca147f83ed862c416c5d3ee8bdbc006bcbfb50e31d774723d"
+    },
+    {
+      "file": "Particles/particle_heroring_6_crisp.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/particle_heroring_6_crisp.png",
+      "bytes": 36749,
+      "sha256": "091d5c0b409ae6d072fbce657d8f0c4640b17c2383b9afaafa685e93b6684b46"
+    },
+    {
+      "file": "Particles/valkyrie_ring.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/valkyrie/valkyrie_ring.png",
+      "bytes": 186008,
+      "sha256": "328dd240df30bf170a21c6f4508bbe20d768baae9459b9828657427e32cc4b70"
+    },
+    {
+      "file": "Particles/beam_generic_7.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/beam_generic_7.png",
+      "bytes": 24105,
+      "sha256": "6085430f39f9db588a698b68b025618f11835011c9a0ab9e447302309e6eb677"
+    },
+    {
+      "file": "Particles/particle_cone_variamt_gradient_1.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/particle_cone_variamt_gradient_1.png",
+      "bytes": 4337,
+      "sha256": "314367981e5c8c11dbd4726ed2c27c4d4fa8435541f4059507523dfe444dd8a2"
+    },
+    {
+      "file": "Particles/spark_02.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/spark_02.png",
+      "bytes": 39975,
+      "sha256": "2ea0caf46e450a95316773e7cbe21e5029ec0bfc66ff8bba1363655e8da3c446"
+    },
+    {
+      "file": "Particles/particle_flare_006_white.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/particle_flares/particle_flare_006_white.png",
+      "bytes": 26770,
+      "sha256": "4b2e1cd7297633cbb61fdac23cd327381735c9981267e17cd08b6d8eece54839"
+    }
+  ],
+  "particle_definitions_read": [
+    {
+      "particle": "particles/ui_mouseactions/ping.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping.json",
+      "bytes": 27634,
+      "sha256": "007b5348468d3ee9ac6f18a6e610720997d58b6b83831a81e0a20137cd3f97bb"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_world.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_world.json",
+      "bytes": 17154,
+      "sha256": "e55922c5c61d001d8101ebf17ad2b565e2332e0f63f12c8276efe825440f03cb"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_retreat.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_retreat.json",
+      "bytes": 16741,
+      "sha256": "465408085eefae55c23613d37b822fb316d9792ae98e0759fba126b13d1539f2"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_attack.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_attack.json",
+      "bytes": 16974,
+      "sha256": "a9780303f8fb1f0d50305207a334863dec06aad032570f90549832bd842a90ad"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_waypoint.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_waypoint.json",
+      "bytes": 8507,
+      "sha256": "a529c1445c2fc4fc61fe1c692586ca1f592e0479c197c7ead5bb9ff472cc2752"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_assist.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_assist.json",
+      "bytes": 9075,
+      "sha256": "d06abee12e1b6a14d2904fe28565a8a14d664e0e12f964c4bc39ebc214548318"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_defend_new.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_defend_new.json",
+      "bytes": 9511,
+      "sha256": "f38a88206d51316e2bd8fea97de1a9d57a3e267168ec152a9bb4c112e6915353"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_heart.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_heart.json",
+      "bytes": 9651,
+      "sha256": "03bc1a512974f43e05cc838b4cb42e54a71e6ae27c292bd9930ee942a6eaad3a"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_enemyward.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_enemyward.json",
+      "bytes": 3504,
+      "sha256": "2dd2054eabcd876b3445043b5f6bfc4c5eec31ae95dbb0afaccb117f7b17e545"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_friendlyward.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_friendlyward.json",
+      "bytes": 3338,
+      "sha256": "bf753b1d47a648e8b43792e300fd49460afc9f48e958f60187bb7cc47b88f261"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_elements_ground.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_elements_ground.json",
+      "bytes": 944,
+      "sha256": "a8faec9488f6aa810cab66c6627a1cc114905c889f8b4af7e7e99c20a74da01b"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_elements_attack.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_elements_attack.json",
+      "bytes": 7318,
+      "sha256": "106181d6a9ada95828a213e4b540614f458d1a3e4d76eabdb7f9a8fdcc6f4502"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_elements_overhead.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_elements_overhead.json",
+      "bytes": 37795,
+      "sha256": "b041d3b62db3a77b867d6f9874f61fef4b93ba7a60ec74b19f9ce39ae3f3971b"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_elements_overhead_icon_core.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_elements_overhead_icon_core.json",
+      "bytes": 87094,
+      "sha256": "3c694f7097c42c859b3ba10fc923bdc8ddc47be9229a23fe0b80e83272fd3a3f"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_elements_ground_click.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_elements_ground_click.json",
+      "bytes": 10817,
+      "sha256": "c5b9073d142cc78210257b4a70bcba4ef60d8d8972aacd2a84e0ac6b3889015c"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_waypoint_vertical_energy.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_waypoint_vertical_energy.json",
+      "bytes": 72523,
+      "sha256": "bc87f2a4102013e784761e964e8c0c25a35f4ad3ef9bf5f07400eb8ef09d59f4"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_waypoint_solidcircle.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_waypoint_solidcircle.json",
+      "bytes": 41379,
+      "sha256": "1efdc31df6e9faad8ffd6afe6625c1f84fceb3e82f01fdae0be88e000b520390"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_waypoint_spinner.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_waypoint_spinner.json",
+      "bytes": 23471,
+      "sha256": "de8fecff32d3a87d53bf6a1cb91e1ddb5462bc8ecd52368b71d31fe04cf421fa"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_player_light.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_player_light.json",
+      "bytes": 13547,
+      "sha256": "8dc4675a39c46a24f131f0ee623f5ffb1627f4e105f520eb9bed2484fda96973"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_attack_sword_pillar.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_attack_sword_pillar.json",
+      "bytes": 28792,
+      "sha256": "0b9dd66f3d5fdeb9700e7cdfa36de6884884802c4735df092be6ccdfe29264be"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_attack_sword_impact_rays.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_attack_sword_impact_rays.json",
+      "bytes": 18727,
+      "sha256": "c139e3496a41215770e77ef6d58951266192c436c1fea4328a773575b89bde2b"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_attack_sword_sparks.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_attack_sword_sparks.json",
+      "bytes": 25097,
+      "sha256": "cfc72c616334b0de56d8bf7a7db290b3119cfdfced97e7e9c9ab854654b06b56"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_ground_glow.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_ground_glow.json",
+      "bytes": 37555,
+      "sha256": "b9c597eae191bd1d53f21126b60bbe177842d30d19aa81bde7f6f5ea62dcbf97"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_msg_ward_icon.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_msg_ward_icon.json",
+      "bytes": 59862,
+      "sha256": "f0bb14129f66ada6e8b9983f064aeedc1bf54de0f13bf3db497908da40a1a1af"
+    },
+    {
+      "particle": "particles/ui_mouseactions/ping_waypoint_moveto.vpcf",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/ui_mouseactions/ping_waypoint_moveto.json",
+      "bytes": 22222,
+      "sha256": "4c342d23499e16fd3e8b300fa6905f36b827a80c2a2e045ba4c7c3caa6cb5f5a"
+    }
+  ]
+}

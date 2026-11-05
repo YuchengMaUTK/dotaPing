@@ -1,0 +1,16 @@
+# Local build products
+.build/
+.swiftpm/
+dist/
+.DS_Store
+# Game assets and local imports (not licensed by this repository)
+Sources/DotaPing/Resources/Pings/
+Sources/DotaPing/Resources/Wheel/
+Sources/DotaPing/Resources/Particles/
+Sources/DotaPing/Resources/Sounds/
+References/*.json
+References/*.vdata
+References/*.xml
+References/*.css
+References/*.jpg
+References/*.webm

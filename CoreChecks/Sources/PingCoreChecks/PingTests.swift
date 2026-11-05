@@ -1,0 +1,1 @@
+../../../Tests/PingCoreTests/PingTests.swift

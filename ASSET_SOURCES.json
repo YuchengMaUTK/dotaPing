@@ -1,0 +1,62 @@
+[
+  {
+    "file": "ping_assist_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_assist_psd.png",
+    "sha256": "b4230c51e2a3aecfaa31a3ebebc99eaf2adac54c58886bb531986e76228c40f1",
+    "bytes": 16418
+  },
+  {
+    "file": "ping_danger_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_danger_psd.png",
+    "sha256": "970b4544ee0156f4c725720ccde1d7e64900703643b4ed2417f57f0757c904e0",
+    "bytes": 15345
+  },
+  {
+    "file": "ping_defend_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_defend_psd.png",
+    "sha256": "12b31b71bf7a0b33a9398fa509e34a50efc450fd495a2418577c99d48e560f8c",
+    "bytes": 18617
+  },
+  {
+    "file": "ping_icon_attack_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_icon_attack_psd.png",
+    "sha256": "f03712d7edc7bcf8a49a83597f9d74030464774a101ab30cbb435342047360b0",
+    "bytes": 18488
+  },
+  {
+    "file": "ping_icon_enemyward_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_icon_enemyward_psd.png",
+    "sha256": "89221fe525073ab2321665e8d3755737be91f530f93202242b2d34320f4ffca0",
+    "bytes": 15943
+  },
+  {
+    "file": "ping_icon_friendlyward_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_icon_friendlyward_psd.png",
+    "sha256": "31a12adaf8f88469c1feff9155d3f484a9f2dbcf51511382c13afed9c1df99ed",
+    "bytes": 15110
+  },
+  {
+    "file": "ping_icon_waypoint_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_icon_waypoint_psd.png",
+    "sha256": "686a2fe80615de68fe88a7ab0e9582350d50e6c424009e10baacb426c56f3ad4",
+    "bytes": 14978
+  },
+  {
+    "file": "ping_world_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_world_psd.png",
+    "sha256": "71365684ccecb6eabee63308c28a2e4946925cd1bdc297586456185c7b2117d1",
+    "bytes": 13858
+  },
+  {
+    "file": "ping_icon_retreat_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_icon_retreat_psd.png",
+    "sha256": "a7d0dfe1fa4b0ac59861d0b99af0f825dbb393f7ec972ff8c3379bc7d5fdb647",
+    "bytes": 14888
+  },
+  {
+    "file": "ping_heart_psd.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/pings/ping_heart_psd.png",
+    "sha256": "ca80f17987c5c533492400cbe42b034a73dd04d2c76adc2296087da82b2d796c",
+    "bytes": 15730
+  }
+]

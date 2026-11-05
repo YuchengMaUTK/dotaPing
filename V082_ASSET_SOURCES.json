@@ -1,0 +1,25 @@
+{
+  "note": "Original unmodified hero_level atlas; runtime selects bronze sequence 0. CP3.y tier 1 maps to sequence 0 in ping_elements_overhead_icon_core. No rank medals or generated artwork.",
+  "revision": "798ae1470488ce2cb8f119746c9a8e30964d80d6",
+  "textures": [
+    {
+      "file": "Particles/hero_level.png",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/798ae1470488ce2cb8f119746c9a8e30964d80d6/particles/textures/materials/particle/prime/hero_level.png",
+      "bytes": 191199,
+      "sha256": "04d47a1f8fcdd86778ba30146491f0407f52be98f0b2e35a730797c9eca51bd7"
+    }
+  ],
+  "atlas": {
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/798ae1470488ce2cb8f119746c9a8e30964d80d6/particles/textures/materials/particle/prime/hero_level.json",
+    "sha256": "3adc3d87341571ebbb2aabf45c4c4a90b08b4941ed08ee63fc3f1de9fc420966",
+    "width": 463,
+    "height": 656,
+    "bronzeFrameTopLeft": [
+      203,
+      477,
+      187,
+      163
+    ]
+  },
+  "particleDefinition": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/798ae1470488ce2cb8f119746c9a8e30964d80d6/particles/ui_mouseactions/ping_elements_overhead_icon_core.json"
+}

@@ -1,0 +1,290 @@
+{
+  "description": "Local import integrity inventory; no redistribution license is granted.",
+  "files": [
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_assist_psd.png",
+      "bytes": 16418,
+      "sha256": "b4230c51e2a3aecfaa31a3ebebc99eaf2adac54c58886bb531986e76228c40f1"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_danger_psd.png",
+      "bytes": 15345,
+      "sha256": "970b4544ee0156f4c725720ccde1d7e64900703643b4ed2417f57f0757c904e0"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_defend_psd.png",
+      "bytes": 18617,
+      "sha256": "12b31b71bf7a0b33a9398fa509e34a50efc450fd495a2418577c99d48e560f8c"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_icon_attack_psd.png",
+      "bytes": 18488,
+      "sha256": "f03712d7edc7bcf8a49a83597f9d74030464774a101ab30cbb435342047360b0"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_icon_enemyward_psd.png",
+      "bytes": 15943,
+      "sha256": "89221fe525073ab2321665e8d3755737be91f530f93202242b2d34320f4ffca0"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_icon_friendlyward_psd.png",
+      "bytes": 15110,
+      "sha256": "31a12adaf8f88469c1feff9155d3f484a9f2dbcf51511382c13afed9c1df99ed"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_icon_waypoint_psd.png",
+      "bytes": 14978,
+      "sha256": "686a2fe80615de68fe88a7ab0e9582350d50e6c424009e10baacb426c56f3ad4"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_world_psd.png",
+      "bytes": 13858,
+      "sha256": "71365684ccecb6eabee63308c28a2e4946925cd1bdc297586456185c7b2117d1"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_icon_retreat_psd.png",
+      "bytes": 14888,
+      "sha256": "a7d0dfe1fa4b0ac59861d0b99af0f825dbb393f7ec972ff8c3379bc7d5fdb647"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Pings/ping_heart_psd.png",
+      "bytes": 15730,
+      "sha256": "ca80f17987c5c533492400cbe42b034a73dd04d2c76adc2296087da82b2d796c"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_background_bottomlayer_png.png",
+      "bytes": 30038,
+      "sha256": "455631b11f2c922999d74ce28c322be88beeab6e1c439f98f47f62b01fd0dd71"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_background_png.png",
+      "bytes": 406355,
+      "sha256": "c348b5b5212f24b8bed6916eeabe2e0eb217083325c23e2d087c978f12a8dd73"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_backlines_png.png",
+      "bytes": 39209,
+      "sha256": "30132902f9f2af778e95795783fe4c6e5c180463a8f962b1a44cec8e2f90bac7"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_edge_png.png",
+      "bytes": 208848,
+      "sha256": "4befea6adc4f5eb4232fbe395368f7666feffb51c3a329dddaf963c2baa97bc2"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_middlebutton_png.png",
+      "bytes": 62126,
+      "sha256": "fa7a3db998d72bc6de3ee71e83682aedd7054ba510aa65fb033d7c321eff8960"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_middlebutton_pressed_png.png",
+      "bytes": 51710,
+      "sha256": "c6e7adc6ee1f83f73de8e72edfc8721c16d7f20b99c2b1ee4b24a9756d83bdbb"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_x_png.png",
+      "bytes": 12401,
+      "sha256": "0812ef1b8244d52b0e7985d14445b381d0011ce97a68b9c839e23f7f8d74948f"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Wheel/minimap_wheel_slicethin_hover_png.png",
+      "bytes": 33644,
+      "sha256": "2abe0a6b7cff37678830a3dbeb75cf5cbefa3f3360c1d9431343c3a17ef8c88b"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/beam_generic_2.png",
+      "bytes": 28807,
+      "sha256": "cbea00849a6837689b013adb52bfcde6b5e32ade8ebc337792ad4c50e7fc67e4"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/flare_01.png",
+      "bytes": 33555,
+      "sha256": "9970ed606f3fca4bef5ed25ceaacdc545894cbe729270593a546153731115fac"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/aircraft_white.png",
+      "bytes": 18423,
+      "sha256": "009123d7012dff3640d5cedc960d8fa81ee8f09b7b92e21bc3d8d820e7d29217"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/particle_glow_01.png",
+      "bytes": 48757,
+      "sha256": "6808d14aef82a8f14d5526a1ff7c593ab7651c75ddabb8c69f9d2bb41b0a09cd"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/particle_glow_04.png",
+      "bytes": 152587,
+      "sha256": "39afc8374052d653e4153c428c8e24346f44306b14e663bf2f3a26e8601c42aa"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/particle_ring_wave.png",
+      "bytes": 158130,
+      "sha256": "73be55c3c3d3b9ef7fc034eb4e5cd014fe9018c9ccfd88386f5e57b84cceeed1"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_circle_01.png",
+      "bytes": 29965,
+      "sha256": "c61302d860f6252c539708fa216bc439a1a4b22c85e7419ce0d752d5168ff563"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_ring.png",
+      "bytes": 12206,
+      "sha256": "95b79f61fe0ff9d3e4aa999ee84a7c76db70c084c6e5d389e6c69d09b65acda6"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_world.png",
+      "bytes": 9959,
+      "sha256": "a167800f93995e23e68f71ee446027d772894b41a0e86638805e9c882bcd8575"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_world_arrow.png",
+      "bytes": 10726,
+      "sha256": "dfe0deb9b142d79d1b33cc1c6287cd5a5cd5088e8a632f781224adeb54ddb295"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_world_highlight.png",
+      "bytes": 20302,
+      "sha256": "68a76e7285d5483207442a7493f665151afdf7945f9dde0a34b1a4fd599d6e6f"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_assist.png",
+      "bytes": 9461,
+      "sha256": "fb0d8627123095b63c059012475e891a5c43c04667a954c5d43ff57b593a5e22"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_defend.png",
+      "bytes": 11847,
+      "sha256": "824dff28740abee9c4ec77eea34ced2b564fa282f51fe8bfa58d1a90e0ff7977"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_heart.png",
+      "bytes": 9314,
+      "sha256": "51234eb3d9de5a7b4062037108ea94dadf0f7e2adff0fdca516452221cbc0ae1"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_icon_attack.png",
+      "bytes": 12617,
+      "sha256": "a9ba69cb8f04e629036325c5a3a8f57d976754086168f8f2a22aac10ce756029"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_icon_retreat.png",
+      "bytes": 9407,
+      "sha256": "40a41d9dec3ee3d4648e4cb6dc241dd20a8d5620bb69df4168d94be3f42d33c3"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_icon_ward.png",
+      "bytes": 9519,
+      "sha256": "8e0d6722db45e3e068cb1b6a1a7af105ddb0f003f6f14241796f7a13469b8a26"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/ping_icon_ward_highlight.png",
+      "bytes": 8777,
+      "sha256": "a6b43cd34ca31e773f7cf5d063248aafd7755dff6bce59f9321ee378d36a6d68"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/arrow_down.png",
+      "bytes": 4319,
+      "sha256": "5e36ea4046011041c2859d4f2b2a661ff1e533c7e6cac63076819b71869829ee"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/arrow_down_outline_02.png",
+      "bytes": 2367,
+      "sha256": "6fc1a42f9b5fee2ca147f83ed862c416c5d3ee8bdbc006bcbfb50e31d774723d"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/particle_heroring_6_crisp.png",
+      "bytes": 36749,
+      "sha256": "091d5c0b409ae6d072fbce657d8f0c4640b17c2383b9afaafa685e93b6684b46"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/valkyrie_ring.png",
+      "bytes": 186008,
+      "sha256": "328dd240df30bf170a21c6f4508bbe20d768baae9459b9828657427e32cc4b70"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/beam_generic_7.png",
+      "bytes": 24105,
+      "sha256": "6085430f39f9db588a698b68b025618f11835011c9a0ab9e447302309e6eb677"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/particle_cone_variamt_gradient_1.png",
+      "bytes": 4337,
+      "sha256": "314367981e5c8c11dbd4726ed2c27c4d4fa8435541f4059507523dfe444dd8a2"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/spark_02.png",
+      "bytes": 39975,
+      "sha256": "2ea0caf46e450a95316773e7cbe21e5029ec0bfc66ff8bba1363655e8da3c446"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/particle_flare_006_white.png",
+      "bytes": 26770,
+      "sha256": "4b2e1cd7297633cbb61fdac23cd327381735c9981267e17cd08b6d8eece54839"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Particles/hero_level.png",
+      "bytes": 191199,
+      "sha256": "04d47a1f8fcdd86778ba30146491f0407f52be98f0b2e35a730797c9eca51bd7"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping.wav",
+      "bytes": 352620,
+      "sha256": "c27fc0e196b841a4fde420ba0d644e79f188be87226bcbfe08102ed2f04680e4"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_attack.wav",
+      "bytes": 230200,
+      "sha256": "492b742f634ba0af80f932f7f1f8a52b0c6320753bbd97f42fdf663c5af90098"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_attack_layer.wav",
+      "bytes": 283148,
+      "sha256": "98cd0130c28ef20e0e4766f6597393e86f5d915256235f548d52c292c292fa29"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_defense.wav",
+      "bytes": 264456,
+      "sha256": "b2d036427f605cd6f0f68e28609e977575ea46c08a73d7eecd4d3049803117fc"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_enemy_ward.wav",
+      "bytes": 518604,
+      "sha256": "6c0ba9f117252bea31c585ade55285f16d615f84b194f589b62c7e96553c5198"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_heart.wav",
+      "bytes": 210604,
+      "sha256": "5550543d25d6fe193b9564405c8c93e89af8fe5fc22560ad408c5d0ffad950b4"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_need_ward.wav",
+      "bytes": 352620,
+      "sha256": "f220a3cea143ee601fb088163bd434ccdb01a54b4443c0b30bee9449e532c080"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_warning.wav",
+      "bytes": 125728,
+      "sha256": "d2741d9061a8f2bc46adaee3a6302a1d517fd215882a01edc5a36c23ee500830"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/ping_warning_layer.wav",
+      "bytes": 414584,
+      "sha256": "ce4ec0121958b4fd02dd8a89f3b033bf6ed876a5cf986e77358b23338f41dab0"
+    },
+    {
+      "path": "Sources/DotaPing/Resources/Sounds/sound_events.json",
+      "bytes": 2469,
+      "sha256": "2cf311f163aa00bec373c8fa1f88940867f2999901261b97146e3fc31f9ad6b2"
+    },
+    {
+      "path": "References/hero_level.json",
+      "bytes": 300,
+      "sha256": "3adc3d87341571ebbb2aabf45c4c4a90b08b4941ed08ee63fc3f1de9fc420966"
+    },
+    {
+      "path": "References/ping_wheel.vdata",
+      "bytes": 22017,
+      "sha256": "b71fa27d67d3193415c10822c3027d8ea4d3d162803687db6472d36edd2f6192"
+    }
+  ]
+}

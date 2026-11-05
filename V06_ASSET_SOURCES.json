@@ -1,0 +1,116 @@
+[
+  {
+    "file": "Wheel/minimap_wheel_background_bottomlayer_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_background_bottomlayer_png.png",
+    "bytes": 30038,
+    "sha256": "455631b11f2c922999d74ce28c322be88beeab6e1c439f98f47f62b01fd0dd71"
+  },
+  {
+    "file": "Wheel/minimap_wheel_background_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_background_png.png",
+    "bytes": 406355,
+    "sha256": "c348b5b5212f24b8bed6916eeabe2e0eb217083325c23e2d087c978f12a8dd73"
+  },
+  {
+    "file": "Wheel/minimap_wheel_backlines_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_backlines_png.png",
+    "bytes": 39209,
+    "sha256": "30132902f9f2af778e95795783fe4c6e5c180463a8f962b1a44cec8e2f90bac7"
+  },
+  {
+    "file": "Wheel/minimap_wheel_edge_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_edge_png.png",
+    "bytes": 208848,
+    "sha256": "4befea6adc4f5eb4232fbe395368f7666feffb51c3a329dddaf963c2baa97bc2"
+  },
+  {
+    "file": "Wheel/minimap_wheel_middlebutton_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_middlebutton_png.png",
+    "bytes": 62126,
+    "sha256": "fa7a3db998d72bc6de3ee71e83682aedd7054ba510aa65fb033d7c321eff8960"
+  },
+  {
+    "file": "Wheel/minimap_wheel_middlebutton_pressed_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_middlebutton_pressed_png.png",
+    "bytes": 51710,
+    "sha256": "c6e7adc6ee1f83f73de8e72edfc8721c16d7f20b99c2b1ee4b24a9756d83bdbb"
+  },
+  {
+    "file": "Wheel/minimap_wheel_x_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_x_png.png",
+    "bytes": 12401,
+    "sha256": "0812ef1b8244d52b0e7985d14445b381d0011ce97a68b9c839e23f7f8d74948f"
+  },
+  {
+    "file": "Wheel/minimap_wheel_slicethin_hover_png.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-images/resolve/main/panorama/images/hud/ping_wheel/large/minimap_wheel_slicethin_hover_png.png",
+    "bytes": 33644,
+    "sha256": "2abe0a6b7cff37678830a3dbeb75cf5cbefa3f3360c1d9431343c3a17ef8c88b"
+  },
+  {
+    "file": "Particles/beam_generic_2.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/beam_generic_2.png",
+    "bytes": 28807,
+    "sha256": "cbea00849a6837689b013adb52bfcde6b5e32ade8ebc337792ad4c50e7fc67e4"
+  },
+  {
+    "file": "Particles/flare_01.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/flare/flare_01.png",
+    "bytes": 33555,
+    "sha256": "9970ed606f3fca4bef5ed25ceaacdc545894cbe729270593a546153731115fac"
+  },
+  {
+    "file": "Particles/aircraft_white.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/particle_flares/aircraft_white.png",
+    "bytes": 18423,
+    "sha256": "009123d7012dff3640d5cedc960d8fa81ee8f09b7b92e21bc3d8d820e7d29217"
+  },
+  {
+    "file": "Particles/particle_glow_01.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/particle_glow_01.png",
+    "bytes": 48757,
+    "sha256": "6808d14aef82a8f14d5526a1ff7c593ab7651c75ddabb8c69f9d2bb41b0a09cd"
+  },
+  {
+    "file": "Particles/particle_glow_04.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/particle_glow_04.png",
+    "bytes": 152587,
+    "sha256": "39afc8374052d653e4153c428c8e24346f44306b14e663bf2f3a26e8601c42aa"
+  },
+  {
+    "file": "Particles/particle_ring_wave.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/particle_ring_wave.png",
+    "bytes": 158130,
+    "sha256": "73be55c3c3d3b9ef7fc034eb4e5cd014fe9018c9ccfd88386f5e57b84cceeed1"
+  },
+  {
+    "file": "Particles/ping_circle_01.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_circle_01.png",
+    "bytes": 29965,
+    "sha256": "c61302d860f6252c539708fa216bc439a1a4b22c85e7419ce0d752d5168ff563"
+  },
+  {
+    "file": "Particles/ping_ring.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_ring.png",
+    "bytes": 12206,
+    "sha256": "95b79f61fe0ff9d3e4aa999ee84a7c76db70c084c6e5d389e6c69d09b65acda6"
+  },
+  {
+    "file": "Particles/ping_world.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_world.png",
+    "bytes": 9959,
+    "sha256": "a167800f93995e23e68f71ee446027d772894b41a0e86638805e9c882bcd8575"
+  },
+  {
+    "file": "Particles/ping_world_arrow.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_world_arrow.png",
+    "bytes": 10726,
+    "sha256": "dfe0deb9b142d79d1b33cc1c6287cd5a5cd5088e8a632f781224adeb54ddb295"
+  },
+  {
+    "file": "Particles/ping_world_highlight.png",
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-particles/resolve/main/particles/textures/materials/particle/ping_world_highlight.png",
+    "bytes": 20302,
+    "sha256": "68a76e7285d5483207442a7493f665151afdf7945f9dde0a34b1a4fd599d6e6f"
+  }
+]

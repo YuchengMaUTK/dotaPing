@@ -1,0 +1,195 @@
+{
+  "description": "Original Dota 2 ping WAVs as stored inside the game sound resources, mirrored by the Sqls1/dota2-sounds dataset. No re-encoding, trimming or capture.",
+  "sources": {
+    "audio": "https://huggingface.co/datasets/Sqls1/dota2-sounds (dataset commit 8b679d5c345d8ab8852735ff5ca4e2f97952cc79; sha256 equals the Hugging Face LFS oid)",
+    "soundEvents": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/main/soundevents.json.gz (General.Ping* and their layers: files, volume, pitch)",
+    "pingWheel": "https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/pak01_dir/scripts/ping_wheel.vdata (sSound per wheel entry; copy in References/ping_wheel.vdata)",
+    "vpkListing": "https://github.com/SteamDatabase/GameTracking-Dota2/blob/master/game/dota/pak01_dir.txt (each gameResource exists in pak01_dir.vpk; listed size is the compiled .vsnd_c container, slightly larger than the embedded WAV)"
+  },
+  "license": "Valve game content; local unofficial use only.",
+  "files": [
+    {
+      "file": "ping.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping.wav",
+      "sha256": "c27fc0e196b841a4fde420ba0d644e79f188be87226bcbfe08102ed2f04680e4",
+      "bytes": 352620,
+      "gameResource": "sounds/ui/ping.vsnd_c",
+      "gameResourceListing": {
+        "crc": "0046012077",
+        "bytes": 353000
+      }
+    },
+    {
+      "file": "ping_attack.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_attack.wav",
+      "sha256": "492b742f634ba0af80f932f7f1f8a52b0c6320753bbd97f42fdf663c5af90098",
+      "bytes": 230200,
+      "gameResource": "sounds/ui/ping_attack.vsnd_c",
+      "gameResourceListing": {
+        "crc": "0085866676",
+        "bytes": 231427
+      }
+    },
+    {
+      "file": "ping_attack_layer.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_attack_layer.wav",
+      "sha256": "98cd0130c28ef20e0e4766f6597393e86f5d915256235f548d52c292c292fa29",
+      "bytes": 283148,
+      "gameResource": "sounds/ui/ping_attack_layer.vsnd_c",
+      "gameResourceListing": {
+        "crc": "00303e10a1",
+        "bytes": 284391
+      }
+    },
+    {
+      "file": "ping_defense.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_defense.wav",
+      "sha256": "b2d036427f605cd6f0f68e28609e977575ea46c08a73d7eecd4d3049803117fc",
+      "bytes": 264456,
+      "gameResource": "sounds/ui/ping_defense.vsnd_c",
+      "gameResourceListing": {
+        "crc": "00fd9540a0",
+        "bytes": 265683
+      }
+    },
+    {
+      "file": "ping_enemy_ward.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_enemy_ward.wav",
+      "sha256": "6c0ba9f117252bea31c585ade55285f16d615f84b194f589b62c7e96553c5198",
+      "bytes": 518604,
+      "gameResource": "sounds/ui/ping_enemy_ward.vsnd_c",
+      "gameResourceListing": {
+        "crc": "002dde6ce4",
+        "bytes": 519831
+      }
+    },
+    {
+      "file": "ping_heart.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_heart.wav",
+      "sha256": "5550543d25d6fe193b9564405c8c93e89af8fe5fc22560ad408c5d0ffad950b4",
+      "bytes": 210604,
+      "gameResource": "sounds/ui/ping_heart.vsnd_c",
+      "gameResourceListing": {
+        "crc": "005e3c8cee",
+        "bytes": 211831
+      }
+    },
+    {
+      "file": "ping_need_ward.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_need_ward.wav",
+      "sha256": "f220a3cea143ee601fb088163bd434ccdb01a54b4443c0b30bee9449e532c080",
+      "bytes": 352620,
+      "gameResource": "sounds/ui/ping_need_ward.vsnd_c",
+      "gameResourceListing": {
+        "crc": "00c682e536",
+        "bytes": 353847
+      }
+    },
+    {
+      "file": "ping_warning.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_warning.wav",
+      "sha256": "d2741d9061a8f2bc46adaee3a6302a1d517fd215882a01edc5a36c23ee500830",
+      "bytes": 125728,
+      "gameResource": "sounds/ui/ping_warning.vsnd_c",
+      "gameResourceListing": {
+        "crc": "009e0b780b",
+        "bytes": 126955
+      }
+    },
+    {
+      "file": "ping_warning_layer.wav",
+      "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/8b679d5c345d8ab8852735ff5ca4e2f97952cc79/sounds/ui/ping_warning_layer.wav",
+      "sha256": "ce4ec0121958b4fd02dd8a89f3b033bf6ed876a5cf986e77358b23338f41dab0",
+      "bytes": 414584,
+      "gameResource": "sounds/ui/ping_warning_layer.vsnd_c",
+      "gameResourceListing": {
+        "crc": "00c682c8f6",
+        "bytes": 415827
+      }
+    }
+  ],
+  "soundEventSource": {
+    "url": "https://huggingface.co/datasets/Sqls1/dota2-sounds/resolve/799a117605c2083ed8dba0372f103c0d33727d13/soundevents.json.gz",
+    "sha256": "02d70095a4f7c8c9bf6185f1489574803f98fd261b134d91122a0cdaabfd4ec7",
+    "bytes": 701914,
+    "note": "sha256 equals the Hugging Face LFS oid. Excerpts are the verbatim records for every event and layer the app plays.",
+    "excerpts": {
+      "General.Ping": {
+        "files": [
+          "sounds/ui/ping.wav"
+        ],
+        "volume": 0.6,
+        "pitch": 1
+      },
+      "General.PingAttack": {
+        "files": [
+          "sounds/ui/ping_attack.wav"
+        ],
+        "volume": 0.6,
+        "pitch": 1,
+        "layers": [
+          "PingAttack.Layer"
+        ]
+      },
+      "General.PingDefense": {
+        "files": [
+          "sounds/ui/ping_defense.wav"
+        ],
+        "volume": 0.6,
+        "pitch": 1
+      },
+      "General.PingEnemyWard": {
+        "files": [
+          "sounds/ui/ping_enemy_ward.wav"
+        ],
+        "volume": 0.3,
+        "pitch": 1
+      },
+      "General.PingFriendlyWard": {
+        "files": [
+          "sounds/ui/ping_need_ward.wav"
+        ],
+        "volume": 0.5,
+        "pitch": 1
+      },
+      "General.PingHeart": {
+        "files": [
+          "sounds/ui/ping_heart.wav"
+        ],
+        "volume": 0.8,
+        "pitch": 1
+      },
+      "General.PingWarning": {
+        "files": [
+          "sounds/ui/ping_warning.wav"
+        ],
+        "volume": 0.5,
+        "pitch": 1,
+        "layers": [
+          "PingWarning.Layer"
+        ]
+      },
+      "General.PingWaypoint": {
+        "files": [
+          "sounds/ui/ping.wav"
+        ],
+        "volume": 0.5,
+        "pitch": 1
+      },
+      "PingAttack.Layer": {
+        "files": [
+          "sounds/ui/ping_attack_layer.wav"
+        ],
+        "volume": 0.5,
+        "pitch": 0.95
+      },
+      "PingWarning.Layer": {
+        "files": [
+          "sounds/ui/ping_warning_layer.wav"
+        ],
+        "volume": 0.5,
+        "pitch": 1.25
+      }
+    }
+  }
+}

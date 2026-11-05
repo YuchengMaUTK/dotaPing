@@ -1,0 +1,19 @@
+name: macOS checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  core:
+    name: Core logic (no game assets)
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Swift version
+        run: swift --version
+      - name: Core assertions
+        run: swift run --package-path CoreChecks PingCoreChecks
+      - name: Validate public files
+        run: python3 tools/check-public-tree.py

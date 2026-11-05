@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a macOS DotaPing problem
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: App version, macOS version, chip, and display arrangement
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps, expected behavior, and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: Gesture and permission state
+      description: Does ⌘⌥P work? Is Accessibility enabled? Are gestures paused?
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional logs or screenshots
+      description: Remove private information and unrelated desktop content before sharing.
