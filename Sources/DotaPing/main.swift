@@ -115,6 +115,7 @@ final class WheelView: NSView {
 final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     var dragHook: OptionDrag?
     var dragItem: NSMenuItem!
+    var permissionTimer: Timer?
     var statusItem: NSStatusItem!
     var wheel: OverlayPanel?
     var signal: OverlayPanel?
@@ -143,9 +144,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         let menu = NSMenu()
         menu.delegate = self
         menu.addItem(withTitle: "DotaPing · Desktop Pings", action: nil, keyEquivalent: "")
-        menu.addItem(withTitle: "Open Ping Wheel  ⌘⌥P", action: #selector(showWheelFromMenu), keyEquivalent: "")
-        menu.addItem(withTitle: "Demo Default Ping", action: #selector(demo), keyEquivalent: "")
-        dragItem = menu.addItem(withTitle: "Enable Option Gestures…", action: #selector(enableDrag), keyEquivalent: "")
+        dragItem = menu.addItem(withTitle: "Allow Accessibility Access…", action: #selector(enableDrag), keyEquivalent: "")
         menu.addItem(.separator())
         soundItem = menu.addItem(withTitle: "Sound", action: #selector(toggleSound), keyEquivalent: "")
         pauseItem = menu.addItem(withTitle: "Pause Ping Gestures", action: #selector(togglePause), keyEquivalent: "")
@@ -164,22 +163,31 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         let id = EventHotKeyID(signature: 0x44545047, id: 1)
         let registration = installStatus == noErr ? RegisterEventHotKey(UInt32(kVK_ANSI_P), UInt32(cmdKey | optionKey), id, GetApplicationEventTarget(), 0, &hotkey) : installStatus
         if registration != noErr {
-            statusItem.button?.toolTip = "Shortcut registration failed. Open the wheel from the menu."
+            statusItem.button?.toolTip = "Shortcut registration failed. Use Option + click / drag."
             let alert = NSAlert()
             alert.messageText = "⌘⌥P is unavailable"
-            alert.informativeText = "Another app may be using this shortcut. Open the wheel from the DotaPing menu. Error: \(registration)"
+            alert.informativeText = "Another app may be using this shortcut. Use Option + click / drag after allowing Accessibility access. Error: \(registration)"
             NSApp.activate(ignoringOtherApps: true)
             alert.runModal()
         }
         dragHook = OptionDrag(owner: self)
-        dragHook?.start()
+        if dragHook?.start() != true {
+            let options = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true] as CFDictionary
+            _ = AXIsProcessTrustedWithOptions(options)
+        }
+        // Retry while running so granting permission never needs a menu enable step.
+        permissionTimer = Timer(timeInterval: 1, repeats: true) { [weak self] _ in
+            guard let self else { return }
+            if self.dragHook?.enabled != true { self.dragHook?.start() }
+        }
+        RunLoop.main.add(permissionTimer!, forMode: .common)
         if !UserDefaults.standard.bool(forKey: "hasOpened") {
             UserDefaults.standard.set(true, forKey: "hasOpened")
             help()
         }
     }
     func menuWillOpen(_ menu: NSMenu) {
-        dragItem.title = dragHook?.enabled == true ? "Option Gestures Enabled" : "Enable Option Gestures…"
+        dragItem.isHidden = dragHook?.enabled == true
         soundItem.state = soundEnabled ? .on : .off
         pauseItem.state = isPaused ? .on : .off
     }
@@ -189,7 +197,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         _ = AXIsProcessTrustedWithOptions(options)
         let alert = NSAlert()
         alert.messageText = "Allow DotaPing Accessibility Access"
-        alert.informativeText = "Enable DotaPing in System Settings → Privacy & Security → Accessibility, then choose Enable Option Gestures again. If already enabled, quit and reopen DotaPing. The fallback shortcut ⌘⌥P still works. No keystrokes are recorded."
+        alert.informativeText = "Allow DotaPing in System Settings → Privacy & Security → Accessibility. Option + click / drag starts automatically after access is granted. If macOS still blocks access after an app update, remove and re-add DotaPing in Accessibility, then reopen it. The fallback shortcut ⌘⌥P still works. No keystrokes are recorded."
         NSApp.activate(ignoringOtherApps: true)
         alert.runModal()
     }
@@ -203,15 +211,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         alert.addButton(withTitle: "Got It")
         NSApp.activate(ignoringOtherApps: true)
         alert.runModal()
-    }
-    @objc func demo() {
-        guard let screen = NSScreen.main else { return }
-        anchor = NSPoint(x: screen.visibleFrame.midX, y: screen.visibleFrame.midY)
-        emit(.attention)
-    }
-    @objc func showWheelFromMenu() {
-        guard let screen = NSScreen.main else { return }
-        openWheel(at: NSPoint(x: screen.visibleFrame.midX, y: screen.visibleFrame.midY))
     }
     @objc func showWheel() { openWheel(at: NSEvent.mouseLocation) }
     func openWheel(at point: NSPoint, dragging: Bool = false) {
@@ -276,6 +275,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         RunLoop.main.add(timer, forMode: .common)
     }
     func applicationWillTerminate(_ notification: Notification) {
+        permissionTimer?.invalidate()
         dragHook?.stop()
         audio?.stop()
         hideWheel(); animation?.invalidate()
@@ -455,11 +455,6 @@ func runUISelfTest() {
     delegate.showWheel()
     delegate.showWheel()
     precondition(delegate.wheel == nil)
-    delegate.showWheelFromMenu()
-    if let screen = NSScreen.main {
-        precondition(delegate.anchor == NSPoint(x: screen.visibleFrame.midX, y: screen.visibleFrame.midY))
-    }
-    delegate.hideWheel()
     let hook = OptionDrag(owner: delegate)
     delegate.dragHook = hook
     let top = NSScreen.screens.first!.frame.maxY

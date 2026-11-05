@@ -36,10 +36,11 @@ a document, or the desktop. **⌘⌥P** also opens the wheel.
 | Escape or center click in the fallback wheel | Cancel |
 
 Dragging beyond the wheel continues selecting by direction. The fallback wheel closes after ten seconds.
-The menu also provides a demo ping, sound toggle, gesture pause and Quit.
+The menu provides sound, gesture pause, usage help and Quit.
 
 Option gestures require **System Settings → Privacy & Security → Accessibility → DotaPing**.
-Then choose **Enable Option Gestures** from the app menu. The fallback shortcut does not require Accessibility.
+DotaPing requests access on launch and enables gestures automatically once permission is granted.
+There is no separate enable step. The fallback shortcut does not require Accessibility.
 Option gestures consume the click/drag, including Finder's Option-drag copying; use **Pause Ping Gestures** when you need that operation.
 
 ## Build locally
